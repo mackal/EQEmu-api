@@ -3,7 +3,8 @@
 local path = (...):match('(.-)[^%./]+$')
 
 return {
-    version = "0.0",
+    version = '0.0',
+    name = 'eq',
     functions = {
         {
             name = 'load_encounter',
